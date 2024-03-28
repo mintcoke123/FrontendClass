@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 500px;
+    height: 320px;
+    position: relative;
+}
+
+.base{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed gray;
+    border-radius: 10px;
+    background: #ddd;
+
+}
+
+.target{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.target1:hover{
+    transition: 100ms;
+    transform: scaleX(2);
+}
